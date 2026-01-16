@@ -1,0 +1,78 @@
+$date
+	Sat Mar 15 20:49:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module add_full_te_testbench $end
+$var wire 2 ! sum [1:0] $end
+$var wire 1 " err $end
+$var wire 2 # carry_out [1:0] $end
+$var reg 2 $ a [1:0] $end
+$var reg 2 % b [1:0] $end
+$var reg 2 & carry_in [1:0] $end
+$scope module uut $end
+$var wire 2 ' a [1:0] $end
+$var wire 2 ( b [1:0] $end
+$var wire 2 ) carry_in [1:0] $end
+$var wire 1 " err $end
+$var reg 2 * carry_out [1:0] $end
+$var reg 2 + sum [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+x"
+bx !
+$end
+#10
+b0 #
+b0 *
+b0 !
+b0 +
+b10 &
+b10 )
+#20
+b10 $
+b10 '
+#30
+0"
+b10 #
+b10 *
+b10 %
+b10 (
+#50
+b0 #
+b0 *
+b0 $
+b0 '
+#60
+b0 %
+b0 (
+#80
+b1 $
+b1 '
+#90
+b1 %
+b1 (
+#110
+1"
+b11 $
+b11 '
+#120
+b11 %
+b11 (
+#130

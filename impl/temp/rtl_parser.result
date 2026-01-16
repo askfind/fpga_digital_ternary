@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/src/neg_te_testbench.v",
+  "InstLine" : 19,
+  "InstName" : "neg_te_testbench",
+  "ModuleFile" : "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/src/neg_te_testbench.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "neg_te_testbench",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/src/neg_te_testbench.v",
+    "InstLine" : 31,
+    "InstName" : "uut",
+    "ModuleFile" : "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/src/neg_te.v",
+    "ModuleLine" : 59,
+    "ModuleName" : "neg_te"
+   }
+  ]
+ }
+]

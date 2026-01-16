@@ -1,0 +1,51 @@
+$date
+	Sat Mar 15 19:37:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module neg_te_testbench $end
+$var wire 1 ! err $end
+$var wire 2 " c [1:0] $end
+$var reg 2 # a [1:0] $end
+$scope module uut $end
+$var wire 2 $ a [1:0] $end
+$var wire 1 ! err $end
+$var reg 2 % c [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#10
+0!
+b1 "
+b1 %
+b10 #
+b10 $
+#20
+b0 "
+b0 %
+b0 #
+b0 $
+#30
+b10 "
+b10 %
+b1 #
+b1 $
+#40
+1!
+b0 "
+b0 %
+b11 #
+b11 $
+#50

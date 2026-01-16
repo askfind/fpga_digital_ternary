@@ -1,0 +1,38 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te.v'
+Analyzing Verilog file '/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v'
+Compiling module 'neg_te_testbench'("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":19)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":35)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":36)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":37)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":40)
+WARN  (EX3858) : System task 'finish' is ignored for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":40)
+WARN  (EX3780) : Using initial value of 'a' since it is never assigned("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":41)
+WARN  (EX3858) : System task 'monitor' is ignored for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":45)
+WARN  (EX3858) : System task 'dumpfile' is ignored for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":49)
+WARN  (EX3858) : System task 'dumpvars' is ignored for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":50)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":51)
+Compiling module 'neg_te'("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te.v":51)
+NOTE  (EX0101) : Current top module is "neg_te_testbench"
+WARN  (EX0203) : Top module "neg_te_testbench" has no ports("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":19)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "neg_te" instantiated to "uut" is swept in optimizing("/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v":31)
+[95%] Generate netlist file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/impl/gwsynthesis/fpga_trits.vg" completed
+[100%] Generate report file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/impl/gwsynthesis/fpga_trits_syn.rpt.html" completed
+GowinSynthesis finish

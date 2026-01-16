@@ -1,0 +1,25 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11"
+//Fri Mar 14 09:51:30 2025
+
+//Source file index table:
+//file0 "\/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te.v"
+//file1 "\/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/APPs/fpga_digital_ternary/src/neg_te_testbench.v"
+`timescale 100 ps/100 ps
+module neg_te_testbench (
+
+)
+;
+wire VCC;
+wire GND;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* neg_te_testbench */

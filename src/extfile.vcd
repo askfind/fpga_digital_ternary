@@ -1,0 +1,16 @@
+$date
+	Sat Mar 15 20:59:56 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module opers_trit_testbench $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end
+#1

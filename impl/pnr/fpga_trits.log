@@ -1,0 +1,30 @@
+Reading netlist file: "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/gwsynthesis/fpga_trits.vg"
+WARN  (PA1005) : "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/gwsynthesis/fpga_trits.vg":12 | Module 'neg_te_testbench' contains empty port list
+Parsing netlist file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/gwsynthesis/fpga_trits.vg" completed
+Processing netlist completed
+Reading constraint file: "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/src/fpga_digital_ternary.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/pnr/fpga_trits.power.html" completed
+Generate file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/pnr/fpga_trits.pin.html" completed
+Generate file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/pnr/fpga_trits.rpt.html" completed
+Generate file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/pnr/fpga_trits.rpt.txt" completed
+Generate file "/home/vladfe/WORK/SETUN-1958/DOCs/FPGA/PROJs/fpga_digital_ternary/impl/pnr/fpga_trits.tr.html" completed
+Sat Mar 15 16:42:31 2025
+
